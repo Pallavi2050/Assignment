@@ -1,0 +1,45 @@
+local host 	: machine name
+root 		: user name
+~ 		: user's home directory
+/ 		: top most directory
+# 		:  we are loged in as admin/root user
+$ 		: we are loged in as some another user
+/home 		: home location of created user
+su 		: pseudo user/ super user 
+pwd 		: present working directory
+ls 		: list
+cd 		: change directory
+mkdir 		: make directory
+cd 		: change directory
+touch filename	: to make files
+vi filename	: to open file(and if file doestn't exists it will create the file and then open it)
+0L 		: zero lines
+0C 		: zero charaters
+shift+; = ':' 	: for saving the file
+:wq 		: to write and save
+cat filename	: to get the content of the file
+:!wq		: if we don't want to save the file
+cd /		: to change directory to / 
+mv fimename path 	: to move file from current directory to path directory
+cp filename newfilename/path	: to copy filenme to newfilenmae
+rm		: remove file(will ask if we want to delete)
+rm -rf		: -rf r means recursively and f means forcefullyh (desn't ask)
+rmdir		: to remove directory
+help		: gives all the commands
+help command_name	: gives all the information about command_name
+ls -ltrh /directory	: gives file file_path file_owner file_permissions
+ls -l		: if we are in the same directory in which we want to check file details
+permissions points	: read(r)-4 write(w)-2 execute(x)-1
+chmod 777 filename	ls -l: to change permissions to 777 for all
+(d)rwxrwxrwx	: first 3 are for owner next, 3 are for group and last 3 are for others whrere d stands for directory
+chmod		: change file permissions
+chown		: change file owner
+chgrp		: change file group
+ps		: gives running proceses
+ps aux		: all running proceses
+uname		: gives system information
+df		: gives disk space usage
+head filename	: gives first row of the file
+tail		: gives last row of the file
+find *some_words_of_file/directory*	: to find file or directory with the given words in it
+
